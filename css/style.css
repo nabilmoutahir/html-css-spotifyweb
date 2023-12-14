@@ -8,28 +8,110 @@
     border: 1px dashed black;
 }
 
-/* MAIN---------------------------------- */
-main {
+
+
+
+
+
+#content-top {
     height: calc(100vh - 100px);
     display: flex;
 }
 
-.side-bar {
+/* NAV-BAR----------------------------------- */
+
+#nav-bar {
     width: 250px;
     height: 100%;
     background-color: blue;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
+.logo {
+    height: 50px;
+}
+
+
+
+.install {
+    margin-top: auto;
+}
+
+
+
+
+
+
+
+
+/* MAIN---------------------------------- */
 .main-content {
-    background-color: red;
     height: 100%;
     width: calc(100vw - 250px);
+    overflow: auto;
+}
+
+
+/* Upgrade*/
+.upgrade-section {
+    height: 80px;
+    background-color: gray;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .upgrade {
-    height: 100px;
-    background-color: gray;
+    align-self: center;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-right: 10px;
 }
+
+.upgrade-btn {
+    text-decoration: none;
+    color: white;
+}
+
+/* Music Section */
+.sections {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sections > div {
+    padding: 0 15px;
+}
+
+/* Recently Played */
+.row {
+    display: flex;
+}
+
+.song > img {
+    width: 150px;
+}
+
+/* Created For */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -38,4 +120,8 @@ main {
 footer {
     height: 100px;
     background-color: green;
+}
+
+.content-bot {
+    position: sticky;
 }
