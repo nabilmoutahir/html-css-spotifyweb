@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 1px dashed black;
+}
+
+/* MAIN---------------------------------- */
+main {
+    height: calc(100vh - 100px);
+    display: flex;
+}
+
+.side-bar {
+    width: 250px;
+    height: 100%;
+    background-color: blue;
+}
+
+.main-content {
+    background-color: red;
+    height: 100%;
+    width: calc(100vw - 250px);
+}
+
+.upgrade {
+    height: 100px;
+    background-color: gray;
+}
+
+
+
+
+/* FOOTER--------------------------------- */
+footer {
+    height: 100px;
+    background-color: green;
+}
