@@ -114,7 +114,7 @@
         </nav>
 
         <!-- MAIN-->
-        <main class="main-content">
+        <main id="main">
             <!-- UPGRADE -->
             <div class="upgrade-section">
                 <div class="upgrade">
@@ -125,7 +125,7 @@
             </div>
 
             <!-- MAIN CONTENT -->
-            <div class="content debug">
+            <div class="content">
                 <!-- EXPLORE BAR -->
                 <div class="explore-bar">
                     <div class="explore-link">
@@ -154,63 +154,169 @@
                 </div>
 
                 <!-- MUSIC SECTION -->
-                <div class="debug">
-                    <div>Recently Played</div>
-                    <div class="row">
-                        <div class="song">
-                            <img src="./img/metal_lifting.jpg" alt="">
+                <div id="music-section">
+                    <!-- RECENTLY PLAYED -->
+                    <div class="recently">
+                        <div class="text-section">
+                            <h3>
+                                Recently Played
+                            </h3>
                         </div>
 
-                        <div class="song">
-                            <img src="./img/stranger.jpeg" alt="">
-                        </div>
-                        
-                        <div class="song">
-                            <img src="./img/aquietplace.jpeg" alt="">
-                        </div>
+                        <div class="row">
+                            <div class="album">
+                                <img class="album-cover" src="./img/metal_lifting.jpg" alt="">
 
-                        <div class="song">
-                            <img src="./img/split.jpeg" alt="">
-                        </div>
+                                <div class="album-text">
+                                    <div class="album-title">
+                                        Heavy Metal
+                                    </div>
 
-                        <div class="song">
-                            <img src="./img/cure.jpeg" alt="">
-                        </div>
+                                    <div class="album-subtitle">
+                                        Subtitle
+                                    </div>
+                                </div> 
+                            </div>
 
-                        <div class="song">
-                            <img src="./img/sinister.jpeg" alt="">
+                            <div class="album">
+                                <img class="album-cover" src="./img/stranger.jpeg" alt="">
+
+                                <div class="album-text">
+                                    <div class="album-title">
+                                        Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)
+                                    </div>
+
+                                    <div class="album-subtitle">
+                                        Kyle Dixon & Michael Stein
+                                    </div>
+                                </div> 
+                            </div>
+                            
+                            <div class="album">
+                                <img class="album-cover" src="./img/aquietplace.jpeg" alt="">
+
+                                <div class="album-text">
+                                    <div class="album-title">
+                                        A quiet place
+                                    </div>
+
+                                    <div class="album-subtitle">
+                                        Subtitle
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="album">
+                                <img class="album-cover" src="./img/split.jpeg" alt="">
+
+                                <div class="album-text">
+                                    <div class="album-title">
+                                        Split
+                                    </div>
+
+                                    <div class="album-subtitle">
+                                        Subtitle
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="album">
+                                <img class="album-cover" src="./img/cure.jpeg" alt="">
+
+                                <div class="album-text">
+                                    <div class="album-title">
+                                        A cure of wellness
+                                    </div>
+
+                                    <div class="album-subtitle">
+                                        Subtitle
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="album">
+                                <img class="album-cover" src="./img/sinister.jpeg" alt="">
+
+                                <div class="album-text">
+                                    <div class="album-title">
+                                        Sinister
+                                    </div>
+
+                                    <div class="album-subtitle">
+                                        Subtitle
+                                    </div>
+                                </div> 
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="debug created">
-                    <div>
-                        Creato per John Doe
-                    </div>
+                    <!-- CREATED FOR -->
+                    <div class="created">
+                        <div class="text-section">
+                            <h3>
+                                Creato per John Doe
+                            </h3>
 
-                    <div class="row">
-                        <div class="song">
-                            <img src="./img/radar.jpeg" alt="">
+                            <div>
+                                Più ascolti, più accurati saranno i suggerimenti.
+                            </div>
                         </div>
 
-                        <div class="song">
-                            <img src="./img/mixdaily.jpeg" alt="">
+                        <div class="row">
+                            <div class="album">
+                                <img class="album-cover" src="./img/radar.jpeg" alt="">
+                                
+                                <div class="album-text">
+                                    <div class="album-title">
+                                        Release Radar
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="album">
+                                <img class="album-cover" src="./img/mixdaily.jpeg" alt="">
+
+                                <div class="album-text">
+                                    <div class="album-title">
+                                        Daily Mix 1
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="debug popular">
-                    <div>
-                        Artisti più popolari
-                    </div>
+                    <!-- POPULAR ARTISTS -->
+                    <div class="popular">
+                        <div class="text-section">
+                            <h3>
+                                Artisti più popolari
+                            </h3>
 
-                    <div class="row">
-                        <div class="song">
-                            <img src="./img/youg.jpeg" alt="">
+                            <div>
+                                Più ascolti, più accurati saranno i suggerimenti.
+                            </div>
                         </div>
 
-                        <div class="song">
-                            <img src="./img/einaudi.jpeg" alt="">
+                        <div class="row">
+                            <div class="album">
+                                <img class="album-cover artist-circle" src="./img/youg.jpeg" alt="">
+                            
+                                <div class="album-text">
+                                    <div class="album-title">
+                                        Lana Del Rey
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="album">
+                                <img class="album-cover artist-circle" src="./img/einaudi.jpeg" alt="">
+                            
+                                <div class="album-text">
+                                    <div class="album-title">
+                                        Ludovico Einaudi
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -218,7 +324,82 @@
         </main>
     </div>
 
+    <!-- FOOTER -->
     <footer class="content-bot debug">
+        <div class="footer-left debug">
+            <div class="current-song">
+                <img src="./img/sinister.jpeg" alt="">
+            </div>
+
+            <div>
+                <div>
+                    Sinister
+                </div>
+
+                <div>  
+                    Nome Brano
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-mid debug">
+            <div class="player">
+                <div>
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-backward-step"></i>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-circle-play"></i>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+            </div>
+
+            <div>
+            </div>
+        </div>
+
+        <div class="footer-right debug">
+            <div>
+                <i class="fa-solid fa-list"></i>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
+
+            <div>
+
+            </div>
+
+            <div>
+
+            </div>
+        </div>
     </footer>
 </body>
 </html>
