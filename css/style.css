@@ -147,15 +147,14 @@
 /* MAIN---------------------------------------------------------------- */
 .main-content {
     height: 100%;
-    width: calc(100vw - 250px);
+    width: calc(100vw - 230px);
     overflow: auto;
 }
-
 
 /* Upgrade*/
 .upgrade-section {
     height: 70px;
-    background-color: gray;
+    background-color: #080b12;
     display: flex;
     justify-content: flex-end;
 }
