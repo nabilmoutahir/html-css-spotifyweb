@@ -189,6 +189,7 @@
 
 .explore-link > a {
     text-decoration: none;
+    font-size: small;
     font-weight: bolder;
     color: #797c80;
 }
@@ -204,7 +205,7 @@
 
 .row {
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .album {
@@ -227,11 +228,13 @@
     padding: 5px 0;
 }
 
-.text-section {
+.row-title{
     color: white;
+    font-size: larger;
+    font-weight: 900;
 }
 
-.album-subtitle, .text-section > div {
+.album-subtitle, .row-sub {
     font-size: x-small;
     font-weight: bold;
     color: rgb(113 113 113);
