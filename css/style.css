@@ -10,15 +10,15 @@
 }
 
 #content-top {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 90px);
     display: flex;
 }
 
 /* NAV-BAR---------------------------------------------------------------- */
 #nav-bar {
     width: 230px;
-    height: calc(100vh - 100px);
-    padding: 0 10px;
+    height: calc(100vh - 90px);
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -27,7 +27,7 @@
 
 /* Main Logo Section------------ */
 .logo-section {
-    min-height: 70px;
+    min-height: 60px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -145,28 +145,29 @@
 }
 
 /* MAIN---------------------------------------------------------------- */
-.main-content {
-    height: 100%;
+#main {
     width: calc(100vw - 230px);
     overflow: auto;
+    background-color: #141922;
 }
 
 /* Upgrade---------------------- */
 .upgrade-section {
-    height: 70px;
+    height: 60px;
     background-color: #080b12;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .upgrade {
-    align-self: center;
     border: 1px solid white;
     color: white;
     height: 40px;
     padding: 10px 30px;
     border-radius: 30px;
     margin-right: 10px;
+    font-size: small;
 }
 
 .upgrade-btn {
@@ -174,11 +175,11 @@
     color: white;
 }
 
-/* Explore Bar------------- */
+/* Explore Bar----------------------- */
 .explore-bar {
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 .explore-link {
@@ -192,35 +193,100 @@
     color: #797c80;
 }
 
-/* Recently Played */
-.row {
-    display: flex;
+/* MUSIC SECTION------------------- */
+#music-section {
+    padding: 0 20px;
 }
 
-.song > img {
+.text-section {
+    line-height: 1.5rem;
+}
+
+.row {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.album {
+   padding: 20px 20px 0 0;
+}
+
+.album-cover {
     width: 150px;
 }
 
-/* Created For */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* FOOTER--------------------------------- */
-footer {
-    height: 100px;
-    background-color: green;
+.album-text {
+    text-align: center;
+    width: 150px;
 }
+
+.album-title {
+    font-size: small;
+    font-weight: bolder;
+    color: white;
+    padding: 5px 0;
+}
+
+.text-section {
+    color: white;
+}
+
+.album-subtitle, .text-section > div {
+    font-size: x-small;
+    font-weight: bold;
+    color: rgb(113 113 113);
+}
+
+/* Popular Artists ---------------- */
+.artist-circle {
+    border-radius: 50%;
+}
+
+/* FOOTER--------------------------------------------------------------- */
+footer {
+    height: 90px;
+    background-color: green;
+    position: sticky;
+}
+
+.content-bot {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer-left--------------- */
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+
+.current-song > img {
+    height: 50px;
+}
+
+
+/* Footer-mid---------------- */
+/* .footer-mid {
+    
+} */
+
+.player {
+    display: flex;
+}
+
+/* Footer-right--------------- */
+.footer-right {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
