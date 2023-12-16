@@ -2,51 +2,149 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .debug {
     border: 1px dashed black;
 }
 
-
-
-
-
-
 #content-top {
     height: calc(100vh - 100px);
     display: flex;
 }
 
-/* NAV-BAR----------------------------------- */
-
+/* NAV-BAR---------------------------------------------------------------- */
 #nav-bar {
-    width: 250px;
-    height: 100%;
-    background-color: blue;
-    padding: 0px;
+    width: 230px;
+    height: calc(100vh - 100px);
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
+    background-color: black;
+    font-size: small;
 }
 
-.logo {
-    height: 50px;
+/* Main Logo Section---------------- */
+.logo-section {
+    min-height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
+.main-logo {
+    height: 40px;
+}
 
+/* NAV Section ---------------- */
+.nav-section {
+    font-weight: bolder;
+}
 
-.install {
+.home-btn, .search-btn, .library-btn, .install-btn, .user-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.home-logo, .search-logo, .library-logo, .install-logo, .user-logo  {
+    height: 25px;
+    color: #d2d2d2;
+}
+
+.home-btn > span {
+    color: white;
+}
+
+.search-btn, .library-btn > span {
+    color: rgb(113 113 113);
+}
+
+/* Playlist Section------------ */
+.playlist-section {
+    padding-top: 10px;
+}
+
+.playlist-section > h3 {
+    padding: 10px 0;
+    color: white;
+}
+
+.add-playlist{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.add-playlist > span {
+    color: rgb(113 113 113);
+    font-weight: bolder;
+}
+
+.add-playlist-btn{
+    width: 50px;
+    aspect-ratio: 1;
+    font-size: 2rem;
+    background-color: #a3a3a3;
+}
+
+.add-playlist > span {
+    padding-left: 10px;
+}
+
+.playlist {
+    list-style: none;
+    color: rgb(113 113 113);
+    padding: 5px 0;
+    font-weight: bolder;
+}
+
+/* Install Section------------- */
+.install-section {
     margin-top: auto;
 }
 
+.install {
+    border-bottom: 1px solid rgb(113 113 113);
+}
 
+.install-btn {
+    display: flex;
+    align-items: center;
+}
 
+.install-btn > span {
+    padding: 0 10px;
+    font-weight: bolder;
+    color: #717171;
+}
 
+.install-logo {
+    height: 16px;
+    aspect-ratio: 1;
+}
 
+.user-btn {
+    padding-top: 15px;
+}
 
+.user-logo {
+    border-radius: 50%;
+    background-color: #808080;
+    width: 25px;
+    height: 25px;
+}
 
+.user-btn > span {
+    color: white;
+    font-weight: bolder;
+    padding: 0 10px;
+}
 
-/* MAIN---------------------------------- */
+/* MAIN---------------------------------------------------------------- */
 .main-content {
     height: 100%;
     width: calc(100vw - 250px);
@@ -56,7 +154,7 @@
 
 /* Upgrade*/
 .upgrade-section {
-    height: 80px;
+    height: 70px;
     background-color: gray;
     display: flex;
     justify-content: flex-end;
@@ -66,6 +164,7 @@
     align-self: center;
     border: 1px solid white;
     color: white;
+    height: 40px;
     padding: 10px 30px;
     border-radius: 30px;
     margin-right: 10px;
@@ -114,14 +213,8 @@
 
 
 
-
-
 /* FOOTER--------------------------------- */
 footer {
     height: 100px;
     background-color: green;
-}
-
-.content-bot {
-    position: sticky;
 }
