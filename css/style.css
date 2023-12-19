@@ -151,6 +151,10 @@
     background-color: #141922;
 }
 
+.content {
+    max-width: 100%;
+}
+
 /* Upgrade---------------------- */
 .upgrade-section {
     height: 80px;
@@ -184,10 +188,11 @@
 
 .explore-link {
     padding: 0 15px;
-    text-decoration: no;
+    text-decoration: none;
 }
 
 .explore-link > a {
+    max-width: 100%;
     text-decoration: none;
     font-size: small;
     font-weight: bolder;
@@ -331,7 +336,7 @@ footer {
 .progress-bar{
     border: 1px solid rgb(113 113 113);
     border-radius: 5px;
-    width: 70%;
+    min-width: 70%;
 }
 
 .progress-bar :only-child {

@@ -1,0 +1,72 @@
+@media screen and (max-width: 992px) {
+    .explore-bar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .album-cover, .album-text {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .explore-bar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .explore-link {
+        padding-bottom: 20px;
+    }
+
+    .row {
+        min-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .album{
+        min-width: calc(100% / 2 - 10px);
+        padding: 0 5px;
+    }
+
+    .album-cover, .album-text {
+        min-width: 100%;
+    }
+
+    .footer-section {
+        max-width: calc(100% / 3);
+    }
+
+    .player {
+        max-width: 100%;
+    }
+
+    .player > div {
+        padding: 10px;
+    }
+
+    .song-name {
+        padding: 0 10px;
+    }
+
+    .footer-left-icons{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+
