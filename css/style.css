@@ -250,6 +250,8 @@ footer {
     height: 90px;
     background-color: green;
     position: sticky;
+    color: white;
+    background-color: #282828;
 }
 
 .content-bot {
@@ -257,35 +259,110 @@ footer {
     justify-content: space-between;
 }
 
+
+.footer-section {
+    width: calc(100% / 3);
+    padding: 0 20px;
+}
+
+
 /* Footer-left--------------- */
 .footer-left {
     display: flex;
     align-items: center;
 }
 
-
 .current-song > img {
     height: 50px;
 }
 
+.song-name {
+    font-size: small;
+    padding:0 20px;
+}
 
-/* Footer-mid---------------- */
-/* .footer-mid {
-    
-} */
+.song-name :first-child{
+    font-weight: bolder;
+}
 
-.player {
+.song-name :last-child{
+    color: rgb(113 113 113);
+}
+
+.footer-left-icons {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-left-icons > div {
+    padding: 0 10px;
+    color: rgb(113 113 113);
+}
+/* Footer-mid---------------- */
+.player {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.player-play {
+    font-size: xx-large;
+}
+
+.player > div {
+    padding: 15px;
+}
+
+.player-bar {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    font-size: x-small;
+    padding: 0 20px;
+}
+
+.progress-bar{
+    border: 1px solid rgb(113 113 113);
+    border-radius: 5px;
+    width: 70%;
+}
+
+.progress-bar :only-child {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 70%;
 }
 
 /* Footer-right--------------- */
 .footer-right {
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: small;
 }
 
+.footer-right-icon {
+    padding: 0 10px;
+}
 
+.progress-bar-right {
+    width: 40%;
+    border: 1px solid rgb(113 113 113);
+    border-radius: 5px;
+}
 
-
+.progress-bar-right :only-child {
+    width: 60%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
 
 
 
